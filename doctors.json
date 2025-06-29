@@ -1,0 +1,486 @@
+[
+  {
+    "id": "D001",
+    "name": "Dr. Anjali Mehta",
+    "designation": "Senior Cardiologist",
+    "specialization": ["Cardiology", "Interventional Cardiology"],
+    "qualifications": ["MBBS", "MD (Internal Medicine)", "DM (Cardiology)"],
+    "experience_years": 15,
+    "languages_spoken": ["English", "Hindi", "Marathi"],
+    "contact_details": {
+      "email": "anjali.mehta@hospital.org",
+      "phone": "+91-9876543210"
+    },
+    "shift_timings": {
+      "Monday": "9:00 AM - 2:00 PM",
+      "Wednesday": "10:00 AM - 4:00 PM",
+      "Friday": "9:00 AM - 1:00 PM"
+    },
+    "availability_mode": ["In-Person", "Online"],
+    "room_number": "Cardiology - Room 203",
+    "bio": "Dr. Anjali Mehta is a senior cardiologist with over 15 years of experience in diagnosing and treating complex cardiac conditions.",
+    "awards": ["Best Cardiologist Award - 2021", "Excellence in Patient Care - 2019"],
+    "current_patients_per_day": 20,
+    "consultation_fee_inr": 1200,
+    "average_rating": 4.8
+  },
+  {
+    "id": "D002",
+    "name": "Dr. Rajiv Kumar",
+    "designation": "Orthopedic Surgeon",
+    "specialization": ["Orthopedics", "Joint Replacement Surgery"],
+    "qualifications": ["MBBS", "MS (Orthopedics)"],
+    "experience_years": 12,
+    "languages_spoken": ["English", "Hindi", "Telugu"],
+    "contact_details": {
+      "email": "rajiv.kumar@hospital.org",
+      "phone": "+91-9123456789"
+    },
+    "shift_timings": {
+      "Tuesday": "11:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Saturday": "10:00 AM - 2:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "Ortho Wing - Room 105",
+    "bio": "Dr. Rajiv Kumar is a highly skilled orthopedic surgeon who has performed over 1000 successful joint replacement surgeries.",
+    "awards": ["Top Orthopedic Surgeon - 2020"],
+    "current_patients_per_day": 18,
+    "consultation_fee_inr": 1000,
+    "average_rating": 4.6
+  },
+  {
+    "id": "D003",
+    "name": "Dr. Sneha Reddy",
+    "designation": "Pediatrician",
+    "specialization": ["Pediatrics", "Child Nutrition"],
+    "qualifications": ["MBBS", "MD (Pediatrics)"],
+    "experience_years": 10,
+    "languages_spoken": ["English", "Hindi", "Kannada"],
+    "contact_details": {
+      "email": "sneha.reddy@hospital.org",
+      "phone": "+91-9812345678"
+    },
+    "shift_timings": {
+      "Monday": "10:00 AM - 4:00 PM",
+      "Wednesday": "10:00 AM - 4:00 PM",
+      "Friday": "9:00 AM - 1:00 PM"
+    },
+    "availability_mode": ["Online"],
+    "room_number": "Pediatrics - Room 110",
+    "bio": "Dr. Sneha Reddy is a dedicated pediatrician with a focus on early childhood development and immunization programs.",
+    "awards": ["Rising Star Pediatrician - 2018"],
+    "current_patients_per_day": 25,
+    "consultation_fee_inr": 800,
+    "average_rating": 4.7
+  },
+  {
+    "id": "D004",
+    "name": "Dr. Nikhil Sharma",
+    "designation": "Neurologist",
+    "specialization": ["Neurology", "Stroke Management"],
+    "qualifications": ["MBBS", "MD (General Medicine)", "DM (Neurology)"],
+    "experience_years": 13,
+    "languages_spoken": ["English", "Hindi", "Punjabi"],
+    "contact_details": {
+      "email": "nikhil.sharma@hospital.org",
+      "phone": "+91-9845671234"
+    },
+    "shift_timings": {
+      "Tuesday": "9:00 AM - 2:00 PM",
+      "Thursday": "2:00 PM - 6:00 PM"
+    },
+    "availability_mode": ["In-Person", "Online"],
+    "room_number": "Neuro - Room 210",
+    "bio": "Dr. Nikhil Sharma specializes in neurological disorders and stroke rehabilitation with over a decade of experience.",
+    "awards": ["Best Neurologist - 2020"],
+    "current_patients_per_day": 15,
+    "consultation_fee_inr": 1500,
+    "average_rating": 4.9
+  },
+  {
+    "id": "D005",
+    "name": "Dr. Meera Joshi",
+    "designation": "Dermatologist",
+    "specialization": ["Dermatology", "Cosmetology"],
+    "qualifications": ["MBBS", "MD (Dermatology)"],
+    "experience_years": 8,
+    "languages_spoken": ["English", "Hindi", "Gujarati"],
+    "contact_details": {
+      "email": "meera.joshi@hospital.org",
+      "phone": "+91-9856123478"
+    },
+    "shift_timings": {
+      "Wednesday": "10:00 AM - 4:00 PM",
+      "Friday": "1:00 PM - 6:00 PM"
+    },
+    "availability_mode": ["Online"],
+    "room_number": "Dermatology - Room 307",
+    "bio": "Dr. Meera Joshi is a cosmetology expert with a passion for skincare treatments and acne solutions.",
+    "awards": ["Young Dermatologist Award - 2019"],
+    "current_patients_per_day": 22,
+    "consultation_fee_inr": 900,
+    "average_rating": 4.5
+  },
+  {
+    "id": "D006",
+    "name": "Dr. Rohan Patil",
+    "designation": "ENT Specialist",
+    "specialization": ["ENT", "Allergy Treatments"],
+    "qualifications": ["MBBS", "MS (ENT)"],
+    "experience_years": 11,
+    "languages_spoken": ["English", "Hindi", "Marathi"],
+    "contact_details": {
+      "email": "rohan.patil@hospital.org",
+      "phone": "+91-9823456781"
+    },
+    "shift_timings": {
+      "Monday": "11:00 AM - 3:00 PM",
+      "Thursday": "9:00 AM - 1:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "ENT - Room 111",
+    "bio": "Dr. Rohan Patil treats common ENT disorders and specializes in allergy management and sinus surgeries.",
+    "awards": [],
+    "current_patients_per_day": 17,
+    "consultation_fee_inr": 750,
+    "average_rating": 4.4
+  },
+  {
+    "id": "D007",
+    "name": "Dr. Ayesha Khan",
+    "designation": "Gynecologist",
+    "specialization": ["Gynecology", "Obstetrics"],
+    "qualifications": ["MBBS", "MD (Gynecology)"],
+    "experience_years": 14,
+    "languages_spoken": ["English", "Hindi", "Urdu"],
+    "contact_details": {
+      "email": "ayesha.khan@hospital.org",
+      "phone": "+91-9811122334"
+    },
+    "shift_timings": {
+      "Tuesday": "9:00 AM - 1:00 PM",
+      "Friday": "2:00 PM - 6:00 PM"
+    },
+    "availability_mode": ["In-Person", "Online"],
+    "room_number": "Gynae - Room 115",
+    "bio": "Dr. Ayesha Khan is an experienced gynecologist with a compassionate approach to women’s health.",
+    "awards": ["Women’s Health Champion - 2017"],
+    "current_patients_per_day": 19,
+    "consultation_fee_inr": 1100,
+    "average_rating": 4.7
+  },
+  {
+    "id": "D008",
+    "name": "Dr. Arvind Desai",
+    "designation": "General Physician",
+    "specialization": ["General Medicine", "Preventive Care"],
+    "qualifications": ["MBBS", "MD (Internal Medicine)"],
+    "experience_years": 9,
+    "languages_spoken": ["English", "Hindi", "Tamil"],
+    "contact_details": {
+      "email": "arvind.desai@hospital.org",
+      "phone": "+91-9933445566"
+    },
+    "shift_timings": {
+      "Monday": "9:00 AM - 2:00 PM",
+      "Wednesday": "10:00 AM - 4:00 PM",
+      "Saturday": "10:00 AM - 2:00 PM"
+    },
+    "availability_mode": ["Online"],
+    "room_number": "General - Room 101",
+    "bio": "Dr. Arvind Desai focuses on treating lifestyle-related conditions with preventive strategies.",
+    "awards": [],
+    "current_patients_per_day": 21,
+    "consultation_fee_inr": 600,
+    "average_rating": 4.3
+  },
+  {
+    "id": "D009",
+    "name": "Dr. Kavya Nair",
+    "designation": "Psychiatrist",
+    "specialization": ["Psychiatry", "Cognitive Behavioral Therapy"],
+    "qualifications": ["MBBS", "MD (Psychiatry)"],
+    "experience_years": 7,
+    "languages_spoken": ["English", "Malayalam", "Hindi"],
+    "contact_details": {
+      "email": "kavya.nair@hospital.org",
+      "phone": "+91-9784563210"
+    },
+    "shift_timings": {
+      "Tuesday": "11:00 AM - 5:00 PM",
+      "Thursday": "1:00 PM - 6:00 PM"
+    },
+    "availability_mode": ["Online"],
+    "room_number": "Psychiatry - Room 202",
+    "bio": "Dr. Kavya Nair is a mental health expert with special interest in adolescent therapy and depression treatment.",
+    "awards": ["Best Mental Health Advocate - 2022"],
+    "current_patients_per_day": 10,
+    "consultation_fee_inr": 1300,
+    "average_rating": 4.8
+  },
+  {
+    "id": "D010",
+    "name": "Dr. Vikram Iyer",
+    "designation": "Urologist",
+    "specialization": ["Urology", "Kidney Stones"],
+    "qualifications": ["MBBS", "MS (Surgery)", "MCh (Urology)"],
+    "experience_years": 16,
+    "languages_spoken": ["English", "Hindi", "Tamil"],
+    "contact_details": {
+      "email": "vikram.iyer@hospital.org",
+      "phone": "+91-9810011223"
+    },
+    "shift_timings": {
+      "Wednesday": "9:00 AM - 2:00 PM",
+      "Friday": "10:00 AM - 4:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "Urology - Room 204",
+    "bio": "Dr. Vikram Iyer is an expert urologist with a record of over 500 kidney stone removals and prostate surgeries.",
+    "awards": ["Urologist of the Year - 2020"],
+    "current_patients_per_day": 12,
+    "consultation_fee_inr": 1400,
+    "average_rating": 4.6
+  },
+  {
+    "id": "D011",
+    "name": "Dr. Neha Suresh",
+    "designation": "Endocrinologist",
+    "specialization": ["Endocrinology", "Diabetes Management"],
+    "qualifications": ["MBBS", "MD (Internal Medicine)", "DM (Endocrinology)"],
+    "experience_years": 9,
+    "languages_spoken": ["English", "Hindi", "Malayalam"],
+    "contact_details": {
+      "email": "neha.suresh@hospital.org",
+      "phone": "+91-9876501234"
+    },
+    "shift_timings": {
+      "Monday": "10:00 AM - 3:00 PM",
+      "Thursday": "1:00 PM - 5:00 PM"
+    },
+    "availability_mode": ["In-Person", "Online"],
+    "room_number": "Endocrinology - Room 214",
+    "bio": "Dr. Neha Suresh is known for her work in hormonal imbalances and Type 1 diabetes care.",
+    "awards": ["Excellence in Diabetes Education - 2021"],
+    "current_patients_per_day": 16,
+    "consultation_fee_inr": 1000,
+    "average_rating": 4.5
+  },
+  {
+    "id": "D012",
+    "name": "Dr. Aditya Menon",
+    "designation": "Pulmonologist",
+    "specialization": ["Pulmonology", "Sleep Disorders"],
+    "qualifications": ["MBBS", "MD (Pulmonary Medicine)"],
+    "experience_years": 11,
+    "languages_spoken": ["English", "Hindi", "Tamil"],
+    "contact_details": {
+      "email": "aditya.menon@hospital.org",
+      "phone": "+91-9876523456"
+    },
+    "shift_timings": {
+      "Tuesday": "9:00 AM - 1:00 PM",
+      "Friday": "2:00 PM - 6:00 PM"
+    },
+    "availability_mode": ["Online"],
+    "room_number": "Pulmonary - Room 303",
+    "bio": "Dr. Menon specializes in chronic asthma, bronchitis, and sleep apnea treatments.",
+    "awards": ["Pulmonology Star - 2020"],
+    "current_patients_per_day": 14,
+    "consultation_fee_inr": 900,
+    "average_rating": 4.4
+  },
+  {
+    "id": "D013",
+    "name": "Dr. Priya Deshmukh",
+    "designation": "Ophthalmologist",
+    "specialization": ["Ophthalmology", "Cataract Surgery"],
+    "qualifications": ["MBBS", "MS (Ophthalmology)"],
+    "experience_years": 10,
+    "languages_spoken": ["English", "Hindi", "Marathi"],
+    "contact_details": {
+      "email": "priya.deshmukh@hospital.org",
+      "phone": "+91-9876534567"
+    },
+    "shift_timings": {
+      "Monday": "1:00 PM - 6:00 PM",
+      "Thursday": "10:00 AM - 3:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "Eye Care - Room 118",
+    "bio": "Dr. Priya is an eye surgeon with specialization in laser vision correction and cataract treatments.",
+    "awards": ["Top Eye Surgeon - 2019"],
+    "current_patients_per_day": 18,
+    "consultation_fee_inr": 850,
+    "average_rating": 4.6
+  },
+  {
+    "id": "D014",
+    "name": "Dr. Ramesh Babu",
+    "designation": "Oncologist",
+    "specialization": ["Oncology", "Chemotherapy"],
+    "qualifications": ["MBBS", "MD (Medicine)", "DM (Oncology)"],
+    "experience_years": 17,
+    "languages_spoken": ["English", "Hindi", "Telugu"],
+    "contact_details": {
+      "email": "ramesh.babu@hospital.org",
+      "phone": "+91-9876549870"
+    },
+    "shift_timings": {
+      "Wednesday": "10:00 AM - 4:00 PM",
+      "Friday": "1:00 PM - 5:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "Oncology - Room 301",
+    "bio": "Dr. Ramesh Babu is a reputed oncologist with vast experience in chemotherapy and cancer counseling.",
+    "awards": ["Lifetime Achievement in Oncology - 2022"],
+    "current_patients_per_day": 12,
+    "consultation_fee_inr": 1600,
+    "average_rating": 4.9
+  },
+  {
+    "id": "D015",
+    "name": "Dr. Swati Verma",
+    "designation": "Rheumatologist",
+    "specialization": ["Rheumatology", "Autoimmune Diseases"],
+    "qualifications": ["MBBS", "MD (Rheumatology)"],
+    "experience_years": 8,
+    "languages_spoken": ["English", "Hindi"],
+    "contact_details": {
+      "email": "swati.verma@hospital.org",
+      "phone": "+91-9876598765"
+    },
+    "shift_timings": {
+      "Monday": "10:00 AM - 1:00 PM",
+      "Thursday": "2:00 PM - 6:00 PM"
+    },
+    "availability_mode": ["Online"],
+    "room_number": "Rheumatology - Room 220",
+    "bio": "Dr. Swati Verma is passionate about helping patients with arthritis and rare autoimmune conditions.",
+    "awards": [],
+    "current_patients_per_day": 13,
+    "consultation_fee_inr": 1000,
+    "average_rating": 4.5
+  },
+  {
+    "id": "D016",
+    "name": "Dr. Faizan Sheikh",
+    "designation": "Nephrologist",
+    "specialization": ["Nephrology", "Dialysis"],
+    "qualifications": ["MBBS", "MD", "DM (Nephrology)"],
+    "experience_years": 13,
+    "languages_spoken": ["English", "Hindi", "Urdu"],
+    "contact_details": {
+      "email": "faizan.sheikh@hospital.org",
+      "phone": "+91-9876511122"
+    },
+    "shift_timings": {
+      "Tuesday": "10:00 AM - 2:00 PM",
+      "Friday": "3:00 PM - 6:00 PM"
+    },
+    "availability_mode": ["In-Person", "Online"],
+    "room_number": "Nephrology - Room 119",
+    "bio": "Dr. Faizan is known for his expertise in chronic kidney disease and transplant follow-up care.",
+    "awards": ["Top Nephrologist - 2023"],
+    "current_patients_per_day": 11,
+    "consultation_fee_inr": 1400,
+    "average_rating": 4.7
+  },
+  {
+    "id": "D017",
+    "name": "Dr. Alka Jain",
+    "designation": "Gastroenterologist",
+    "specialization": ["Gastroenterology", "Liver Diseases"],
+    "qualifications": ["MBBS", "MD (Internal Medicine)", "DM (Gastroenterology)"],
+    "experience_years": 12,
+    "languages_spoken": ["English", "Hindi"],
+    "contact_details": {
+      "email": "alka.jain@hospital.org",
+      "phone": "+91-9876500099"
+    },
+    "shift_timings": {
+      "Wednesday": "9:00 AM - 2:00 PM",
+      "Saturday": "11:00 AM - 4:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "Gastro - Room 209",
+    "bio": "Dr. Alka has helped hundreds of patients with liver cirrhosis and irritable bowel syndrome.",
+    "awards": ["Gastro Care Excellence Award - 2021"],
+    "current_patients_per_day": 16,
+    "consultation_fee_inr": 1200,
+    "average_rating": 4.6
+  },
+  {
+    "id": "D018",
+    "name": "Dr. Ritu Malhotra",
+    "designation": "Psychologist",
+    "specialization": ["Clinical Psychology", "Stress Management"],
+    "qualifications": ["MA (Psychology)", "PhD (Clinical Psychology)"],
+    "experience_years": 10,
+    "languages_spoken": ["English", "Hindi"],
+    "contact_details": {
+      "email": "ritu.malhotra@hospital.org",
+      "phone": "+91-9876567890"
+    },
+    "shift_timings": {
+      "Tuesday": "2:00 PM - 6:00 PM",
+      "Thursday": "10:00 AM - 3:00 PM"
+    },
+    "availability_mode": ["Online"],
+    "room_number": "Mental Wellness - Room 122",
+    "bio": "Dr. Ritu offers counseling for anxiety, relationship issues, and career stress.",
+    "awards": ["Psychologist of the Year - 2022"],
+    "current_patients_per_day": 14,
+    "consultation_fee_inr": 900,
+    "average_rating": 4.8
+  },
+  {
+    "id": "D019",
+    "name": "Dr. Karthik Narayan",
+    "designation": "Plastic Surgeon",
+    "specialization": ["Plastic Surgery", "Reconstructive Surgery"],
+    "qualifications": ["MBBS", "MS (General Surgery)", "MCh (Plastic Surgery)"],
+    "experience_years": 15,
+    "languages_spoken": ["English", "Tamil", "Hindi"],
+    "contact_details": {
+      "email": "karthik.narayan@hospital.org",
+      "phone": "+91-9876587654"
+    },
+    "shift_timings": {
+      "Monday": "1:00 PM - 6:00 PM",
+      "Thursday": "9:00 AM - 1:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "Plastic Surgery - Room 305",
+    "bio": "Dr. Karthik is a skilled plastic surgeon with over 500 facial and trauma reconstructions to his credit.",
+    "awards": ["Plastic Surgery Excellence - 2020"],
+    "current_patients_per_day": 8,
+    "consultation_fee_inr": 2000,
+    "average_rating": 4.7
+  },
+  {
+    "id": "D020",
+    "name": "Dr. Varsha Pillai",
+    "designation": "Radiologist",
+    "specialization": ["Radiology", "Ultrasound", "CT Imaging"],
+    "qualifications": ["MBBS", "MD (Radiology)"],
+    "experience_years": 9,
+    "languages_spoken": ["English", "Hindi", "Malayalam"],
+    "contact_details": {
+      "email": "varsha.pillai@hospital.org",
+      "phone": "+91-9876591234"
+    },
+    "shift_timings": {
+      "Tuesday": "9:00 AM - 2:00 PM",
+      "Friday": "1:00 PM - 5:00 PM"
+    },
+    "availability_mode": ["In-Person"],
+    "room_number": "Radiology - Room 112",
+    "bio": "Dr. Varsha specializes in diagnostic imaging and is trusted for her accurate reports and timely scans.",
+    "awards": ["Imaging Excellence Award - 2021"],
+    "current_patients_per_day": 20,
+    "consultation_fee_inr": 1000,
+    "average_rating": 4.6
+  }
+]
