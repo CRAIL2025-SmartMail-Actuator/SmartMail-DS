@@ -15,16 +15,16 @@ This system is **not just an auto-responder**; it is a carefully orchestrated ap
 
 The system is built around **four essential capabilities**, each contributing to a streamlined, intelligent, and reliable email response workflow:
 
-### 1. **🎯 Context Retrieval from User Documents**  
+### 1. **Context Retrieval from User Documents**  
 Identifies and retrieves the most relevant information from user-provided documents using semantic search. This ensures that responses are grounded in accurate, context-specific data rather than generic templates.
 
-### 2. **🤖 AI-Driven Email Response Generation (RAG)**  
+### 2. **AI-Driven Email Response Generation (RAG)**  
 Combines the incoming email with retrieved context to generate a personalized and coherent response using a language model. This ensures responses are both helpful and aligned with the user's intent.
 
-### 3. **✅ Automated Response Validation and Scoring**  
+### 3. **Automated Response Validation and Scoring**  
 Each generated response is evaluated and scored for accuracy, completeness, and tone. High-confidence responses are auto-sent, while others are flagged for review, ensuring consistent quality.
 
-### 4. **🔄 Workflow Orchestration**  
+### 4. **Workflow Orchestration**  
 Coordinates all steps of the process using a structured LangGraph-based flow. This ensures modularity, error handling, traceability, and smooth integration between components.
 
 ---
@@ -34,17 +34,17 @@ Coordinates all steps of the process using a structured LangGraph-based flow. Th
 ### **Step-by-Step Process Flow:**
 
 ```
-📧 INCOMING EMAIL
+INCOMING EMAIL
     ↓
-🔍 INTENT ANALYSIS & SUMMARIZATION
+INTENT ANALYSIS & SUMMARIZATION
     ↓
-🗄️ VECTOR DATABASE SEARCH ← → 🌐 WEB SEARCH (Future)
+VECTOR DATABASE SEARCH ← → WEB SEARCH (Future)
     ↓
-🧠 RAG-BASED RESPONSE GENERATION
+RAG-BASED RESPONSE GENERATION
     ↓
-✅ AUTOMATED VALIDATION & SCORING (1-10)
+AUTOMATED VALIDATION & SCORING (1-10)
     ↓
-📤 AUTO-SEND (Score ≥8) OR 👁️ MANUAL REVIEW (Score <8)
+AUTO-SEND (Score ≥8) OR MANUAL REVIEW (Score <8)
 ```
 ### **Workflow Orchestration Features:**
 - **Modular Execution**: Each stage is a well-defined node
@@ -58,10 +58,10 @@ Coordinates all steps of the process using a structured LangGraph-based flow. Th
 
 The backbone of this application lies in the intelligent storage and retrieval of user documents in a vector database.
 
-### **📚 Document Processing Pipeline:**
+### **Document Processing Pipeline:**
 
 ```
-📄 DOCUMENTS          →       🔢 VECTOR EMBEDDINGS          →      🗄️ QDRANT DATABASE
+     DOCUMENTS          →         VECTOR EMBEDDINGS          →        QDRANT DATABASE
 (FAQs, Manuals,JSON)       (sentence transformers Model)              (Local Storage)
  
 ```
@@ -155,24 +155,24 @@ To further enhance the quality and depth of generated responses, especially for 
 ### **Hybrid Retrieval Architecture:**
 
 ```
-📧 QUERY ANALYSIS
+QUERY ANALYSIS
     ↓
-🤔 EXTERNAL DATA REQUIREMENT CHECK
+EXTERNAL DATA REQUIREMENT CHECK
     ↓
-🗄️ VECTOR DATABASE + 🌐 WEB SEARCH
+VECTOR DATABASE +  WEB SEARCH
     ↓
-🔄 CONTEXT FUSION & MERGING
+CONTEXT FUSION & MERGING
     ↓
-🧠 ENHANCED RAG GENERATION
+ENHANCED RAG GENERATION
 ```
 
 ### **Enhanced Capabilities:**
 
 **Particularly useful for domains such as:**
-- **📦 Logistics**: Current fuel costs, shipping regulations, traffic conditions
-- **✈️ Travel**: Real-time pricing, availability, weather conditions
-- **💰 Pricing Estimation**: Market rates, distance calculations, regional variations
-- **📍 Location Services**: Route optimization, geographical data
+- **Logistics**: Current fuel costs, shipping regulations, traffic conditions
+- **Travel**: Real-time pricing, availability, weather conditions
+- **Pricing Estimation**: Market rates, distance calculations, regional variations
+- **Location Services**: Route optimization, geographical data
 
 ### **Technical Implementation:**
 
@@ -260,11 +260,11 @@ The **Automated Email Response System** represents a new standard in how busines
 
 ### **Core Competitive Advantages:**
 
-1. **🎯 Semantic Intelligence**: Advanced vector-based retrieval from user-specific documents
-2. **🤖 Grounded AI Generation**: RAG methodology prevents hallucination and ensures accuracy
-3. **✅ Quality Assurance**: Automated validation with confidence scoring (1-10 scale)
-4. **🔄 Structured Workflow**: LangGraph-powered orchestration with full traceability
-5. **🚀 Future-Ready Architecture**: Extensible with hybrid retrieval capabilities
+1. **Semantic Intelligence**: Advanced vector-based retrieval from user-specific documents
+2. **Grounded AI Generation**: RAG methodology prevents hallucination and ensures accuracy
+3. **Quality Assurance**: Automated validation with confidence scoring (1-10 scale)
+4. **Structured Workflow**: LangGraph-powered orchestration with full traceability
+5. **Future-Ready Architecture**: Extensible with hybrid retrieval capabilities
 
 ### **Innovation Highlights:**
 
