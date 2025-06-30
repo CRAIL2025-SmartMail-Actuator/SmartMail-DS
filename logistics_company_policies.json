@@ -1,0 +1,94 @@
+[
+  {
+    "id": "shipment_tracking_policy",
+    "title": "Shipment Tracking and Updates",
+    "description": "Customers can track their shipment using the tracking number provided via email or SMS after dispatch.",
+    "keywords": ["tracking", "shipment", "delivery status", "track order", "shipment updates"],
+    "details": {
+      "how_to_track": "Customers can enter the tracking number on our website's 'Track Shipment' page or use the mobile app.",
+      "update_frequency": "Shipment status is updated every 2 hours.",
+      "support": "If tracking information is delayed or incorrect, customers can reach support via email or our 24/7 chat assistant.",
+      "international_tracking": "International shipments may have limited real-time tracking based on the carrier."
+    }
+  },
+  {
+    "id": "delayed_delivery_policy",
+    "title": "Delayed Delivery Handling",
+    "description": "Policy for addressing and compensating customers for delayed deliveries.",
+    "keywords": ["delay", "late delivery", "delivery time", "compensation", "reschedule"],
+    "details": {
+      "causes": ["Weather", "Customs clearance", "High shipment volume", "Technical issues"],
+      "customer_rights": "If a shipment is delayed by more than 48 hours beyond the ETA, the customer is eligible for a service credit.",
+      "steps_to_resolve": [
+        "Track the shipment using the tracking ID.",
+        "If status is stuck, reach out to support with tracking number and order details.",
+        "If eligible, file a compensation claim from your dashboard under 'Delivery Issues'."
+      ],
+      "exceptions": ["Natural disasters", "Government restrictions"]
+    }
+  },
+  {
+    "id": "return_refund_policy",
+    "title": "Return and Refund Policy",
+    "description": "Guidelines for initiating returns and obtaining refunds for incorrect, damaged, or delayed shipments.",
+    "keywords": ["return", "refund", "damaged product", "wrong item", "money back"],
+    "details": {
+      "eligibility": "Returns must be initiated within 7 days of delivery.",
+      "conditions": ["Original packaging intact", "Item unused", "Proof of purchase required"],
+      "refund_processing_time": "Refunds will be processed within 5-7 business days after inspection.",
+      "return_shipping": "Free return shipping for damaged or incorrect items. For all other reasons, customer bears return shipping cost.",
+      "exceptions": ["Perishable items", "Custom orders", "Digital goods"]
+    }
+  },
+  {
+    "id": "delivery_time_policy",
+    "title": "Shipping and Delivery Time Policy",
+    "description": "Estimated delivery timelines and factors affecting shipping duration.",
+    "keywords": ["delivery time", "shipping duration", "expected delivery", "logistics delays"],
+    "details": {
+      "domestic_delivery": "3–5 business days depending on location.",
+      "international_delivery": "7–14 business days, subject to customs clearance.",
+      "factors_affecting_time": ["Location", "Weather", "Customs", "Shipment volume"],
+      "priority_shipping": "Available for select locations at additional cost."
+    }
+  },
+  {
+    "id": "lost_package_policy",
+    "title": "Lost or Missing Package Policy",
+    "description": "What to do if your shipment is marked as delivered but is missing or suspected to be lost.",
+    "keywords": ["lost package", "missing shipment", "not delivered", "stolen package"],
+    "details": {
+      "steps_to_follow": [
+        "Confirm the delivery address and check with neighbors.",
+        "Wait 24 hours as some carriers mark deliveries in advance.",
+        "Contact customer support with order ID and tracking number."
+      ],
+      "resolution_options": ["Re-shipment", "Full refund", "Investigation request to carrier"],
+      "investigation_duration": "Investigation can take up to 7 business days."
+    }
+  },
+  {
+    "id": "payment_policy",
+    "title": "Payment and Billing Policy",
+    "description": "Details about supported payment methods, billing cycles, and issues with transactions.",
+    "keywords": ["payment", "billing", "credit card", "invoice", "payment failed"],
+    "details": {
+      "accepted_methods": ["Credit/Debit Card", "Net Banking", "UPI", "Wallets", "Cash on Delivery (COD)"],
+      "billing_support": "Invoices are generated automatically and can be downloaded from the customer dashboard.",
+      "payment_issues": "In case of failed payments, amount is typically reversed within 3–5 business days.",
+      "late_payments": "For business accounts, late payments beyond 15 days will incur a late fee."
+    }
+  },
+  {
+    "id": "packaging_policy",
+    "title": "Packaging and Handling Policy",
+    "description": "Standard procedures for packaging, labeling, and handling of goods to ensure safe delivery.",
+    "keywords": ["packaging", "handling", "damaged parcel", "labeling", "safe shipment"],
+    "details": {
+      "material_standards": "All parcels are packed using tamper-proof, weather-resistant packaging.",
+      "fragile_items": "Labeled as FRAGILE and double-cushioned during transit.",
+      "bulk_orders": "May be split into multiple packages based on weight and volume restrictions.",
+      "sustainability_note": "Our packaging uses 80% recyclable materials to reduce environmental impact."
+    }
+  }
+]

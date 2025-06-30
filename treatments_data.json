@@ -1,0 +1,548 @@
+[
+  {
+    "treatment": "Angioplasty",
+    "department": "Cardiology",
+    "price_inr": 120000,
+    "duration_days": 3,
+    "description": "A procedure to restore blood flow through the artery by inserting a balloon and possibly a stent.",
+    "included_services": [
+      "Consultation",
+      "Surgery",
+      "3 Days Hospital Stay",
+      "Medications",
+      "Post-operative Care"
+    ],
+    "doctor_in_charge": "Dr. Anjali Mehta",
+    "success_rate_percentage": 95,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "ECG",
+      "Blood Pressure Test",
+      "Lipid Profile",
+      "Angiogram"
+    ],
+    "recovery_guidelines": "Avoid strenuous activity for 1 week, continue medication, and follow up within 7 days.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ]
+  },
+  {
+    "treatment": "Cataract Surgery",
+    "department": "Ophthalmology",
+    "price_inr": 35000,
+    "duration_days": 1,
+    "description": "Removal of the eye's natural lens that has developed a cataract and replacing it with an artificial lens.",
+    "included_services": [
+      "Eye Check-up",
+      "Lens Implant",
+      "Same Day Discharge",
+      "Medication"
+    ],
+    "doctor_in_charge": "Dr. Rakesh Sinha",
+    "success_rate_percentage": 98,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Eye Pressure Test",
+      "OCT Scan",
+      "Pupil Dilation"
+    ],
+    "recovery_guidelines": "Avoid rubbing eyes, wear protective glasses, use prescribed eye drops.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Tuesday",
+      "Thursday"
+    ]
+  },
+  {
+    "treatment": "Knee Replacement",
+    "department": "Orthopedics",
+    "price_inr": 220000,
+    "duration_days": 5,
+    "description": "Surgical procedure to replace damaged knee joints with prosthetic components.",
+    "included_services": [
+      "Joint Evaluation",
+      "Surgery",
+      "Physiotherapy",
+      "5 Days Hospital Stay",
+      "Follow-up Consultation"
+    ],
+    "doctor_in_charge": "Dr. Shalini Kapoor",
+    "success_rate_percentage": 92,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "X-ray",
+      "MRI",
+      "Blood Tests",
+      "ECG"
+    ],
+    "recovery_guidelines": "Regular physiotherapy for 6 weeks, avoid twisting or kneeling.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Monday",
+      "Wednesday"
+    ]
+  },
+  {
+    "treatment": "Appendectomy",
+    "department": "General Surgery",
+    "price_inr": 50000,
+    "duration_days": 2,
+    "description": "Surgical removal of the appendix, usually done as an emergency procedure.",
+    "included_services": [
+      "Emergency Consultation",
+      "Surgery",
+      "2 Days Stay",
+      "Pain Management"
+    ],
+    "doctor_in_charge": "Dr. Vivek Anand",
+    "success_rate_percentage": 96,
+    "requires_pre_tests": false,
+    "pre_tests_required": [],
+    "recovery_guidelines": "Light activity for 1 week, avoid lifting heavy objects.",
+    "follow_up_required": false,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Daily"
+    ]
+  },
+  {
+    "treatment": "Cesarean Section",
+    "department": "Gynecology",
+    "price_inr": 80000,
+    "duration_days": 4,
+    "description": "A surgical procedure used to deliver a baby through incisions in the abdomen and uterus.",
+    "included_services": [
+      "Pre-natal Checkups",
+      "Surgery",
+      "4 Days Stay",
+      "Post-natal Care"
+    ],
+    "doctor_in_charge": "Dr. Meera Joshi",
+    "success_rate_percentage": 98,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Ultrasound",
+      "Blood Group",
+      "CBC",
+      "Fetal Monitoring"
+    ],
+    "recovery_guidelines": "Avoid stairs and heavy lifting for 6 weeks, follow-up with OB-GYN.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "All Week"
+    ]
+  },
+  {
+    "treatment": "Dialysis",
+    "department": "Nephrology",
+    "price_inr": 4000,
+    "duration_days": 1,
+    "description": "Filters waste, salt and fluid from the blood when kidneys are no longer healthy.",
+    "included_services": [
+      "Session Charge",
+      "Monitoring",
+      "Medication"
+    ],
+    "doctor_in_charge": "Dr. Rahul Verma",
+    "success_rate_percentage": 89,
+    "requires_pre_tests": false,
+    "pre_tests_required": [],
+    "recovery_guidelines": "Rest post-session, hydrate adequately, follow dietary instructions.",
+    "follow_up_required": true,
+    "insurance_coverage": false,
+    "available_slots": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ]
+  },
+  {
+    "treatment": "Chemotherapy Cycle",
+    "department": "Oncology",
+    "price_inr": 15000,
+    "duration_days": 1,
+    "description": "Cycle of anti-cancer drugs to destroy or slow down cancer cells.",
+    "included_services": [
+      "Drug Administration",
+      "Monitoring",
+      "Nursing",
+      "Follow-up"
+    ],
+    "doctor_in_charge": "Dr. Kavita Desai",
+    "success_rate_percentage": 75,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "CBC",
+      "Kidney Function Test",
+      "Liver Function Test"
+    ],
+    "recovery_guidelines": "Monitor for nausea or weakness, maintain hydration and nutrition.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Weekdays"
+    ]
+  },
+  {
+    "treatment": "Hair Transplant",
+    "department": "Dermatology",
+    "price_inr": 70000,
+    "duration_days": 1,
+    "description": "Surgical technique to restore hair by transplanting follicles.",
+    "included_services": [
+      "Graft Extraction",
+      "Transplantation",
+      "Post-operative Kit"
+    ],
+    "doctor_in_charge": "Dr. Aditya Roy",
+    "success_rate_percentage": 90,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Blood Tests",
+      "Scalp Analysis"
+    ],
+    "recovery_guidelines": "Avoid direct sunlight and washing scalp for 5 days post-surgery.",
+    "follow_up_required": true,
+    "insurance_coverage": false,
+    "available_slots": [
+      "Friday",
+      "Saturday"
+    ]
+  },
+  {
+    "treatment": "LASIK Eye Surgery",
+    "department": "Ophthalmology",
+    "price_inr": 60000,
+    "duration_days": 1,
+    "description": "Laser procedure to correct vision problems like myopia or astigmatism.",
+    "included_services": [
+      "Eye Evaluation",
+      "Surgery",
+      "Follow-up Visit"
+    ],
+    "doctor_in_charge": "Dr. Neha Bansal",
+    "success_rate_percentage": 97,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Corneal Thickness",
+      "Pupil Dilation",
+      "Refraction Test"
+    ],
+    "recovery_guidelines": "No swimming or eye rubbing for a week, use lubricating drops.",
+    "follow_up_required": true,
+    "insurance_coverage": false,
+    "available_slots": [
+      "Monday",
+      "Thursday"
+    ]
+  },
+  {
+    "treatment": "Tonsillectomy",
+    "department": "ENT",
+    "price_inr": 40000,
+    "duration_days": 2,
+    "description": "Surgical removal of tonsils due to infections or breathing difficulty.",
+    "included_services": [
+      "ENT Consultation",
+      "Surgery",
+      "Hospital Stay",
+      "Medication"
+    ],
+    "doctor_in_charge": "Dr. Rajat Khandelwal",
+    "success_rate_percentage": 95,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Throat Swab",
+      "CBC",
+      "Bleeding Time"
+    ],
+    "recovery_guidelines": "Soft foods for a week, avoid shouting or strenuous activity.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Tuesday",
+      "Friday"
+    ]
+  },
+  {
+    "treatment": "Gallbladder Removal",
+    "department": "Gastroenterology",
+    "price_inr": 75000,
+    "duration_days": 3,
+    "description": "Laparoscopic surgery to remove the gallbladder due to stones or inflammation.",
+    "included_services": [
+      "Pre-surgical Consultation",
+      "Laparoscopic Surgery",
+      "Hospital Stay"
+    ],
+    "doctor_in_charge": "Dr. Sweta Rao",
+    "success_rate_percentage": 94,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Ultrasound",
+      "Liver Function Test",
+      "CBC"
+    ],
+    "recovery_guidelines": "Follow low-fat diet post-surgery, avoid lifting heavy objects.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Monday",
+      "Thursday"
+    ]
+  },
+  {
+    "treatment": "Coronary Bypass Surgery",
+    "department": "Cardiothoracic Surgery",
+    "price_inr": 350000,
+    "duration_days": 7,
+    "description": "Surgical procedure to improve blood flow to the heart by bypassing blocked arteries.",
+    "included_services": [
+      "Cardiac Evaluation",
+      "Surgery",
+      "ICU Stay",
+      "Recovery Monitoring"
+    ],
+    "doctor_in_charge": "Dr. Manoj Prakash",
+    "success_rate_percentage": 93,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Angiogram",
+      "ECG",
+      "Chest X-ray",
+      "Blood Tests"
+    ],
+    "recovery_guidelines": "Gradual increase in physical activity, cardiac rehab recommended.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Tuesday",
+      "Friday"
+    ]
+  },
+  {
+    "treatment": "Hip Replacement",
+    "department": "Orthopedics",
+    "price_inr": 200000,
+    "duration_days": 5,
+    "description": "Surgery to replace a damaged or worn-out hip joint with an artificial one.",
+    "included_services": [
+      "Joint Screening",
+      "Surgical Procedure",
+      "Physiotherapy",
+      "Post-op Medication"
+    ],
+    "doctor_in_charge": "Dr. Ritu Jain",
+    "success_rate_percentage": 91,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "X-ray",
+      "MRI",
+      "CBC",
+      "ECG"
+    ],
+    "recovery_guidelines": "Use walker initially, physiotherapy for 4\u20136 weeks.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Wednesday",
+      "Saturday"
+    ]
+  },
+  {
+    "treatment": "Spinal Fusion",
+    "department": "Neurosurgery",
+    "price_inr": 280000,
+    "duration_days": 6,
+    "description": "Surgical fusion of two or more vertebrae to reduce pain and improve stability.",
+    "included_services": [
+      "Spine Imaging",
+      "Surgery",
+      "Pain Management",
+      "Rehabilitation"
+    ],
+    "doctor_in_charge": "Dr. Sameer Kulkarni",
+    "success_rate_percentage": 88,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "MRI",
+      "Bone Density Test",
+      "Blood Work"
+    ],
+    "recovery_guidelines": "Avoid bending or twisting, use lumbar support, follow rehab plan.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Monday",
+      "Thursday"
+    ]
+  },
+  {
+    "treatment": "Piles Laser Surgery",
+    "department": "Proctology",
+    "price_inr": 55000,
+    "duration_days": 1,
+    "description": "Laser-based minimally invasive procedure to treat hemorrhoids.",
+    "included_services": [
+      "Consultation",
+      "Laser Treatment",
+      "Medication"
+    ],
+    "doctor_in_charge": "Dr. Priya Chatterjee",
+    "success_rate_percentage": 96,
+    "requires_pre_tests": false,
+    "pre_tests_required": [],
+    "recovery_guidelines": "High-fiber diet, stool softeners, avoid strain.",
+    "follow_up_required": false,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Tuesday",
+      "Friday"
+    ]
+  },
+  {
+    "treatment": "Sinus Surgery",
+    "department": "ENT",
+    "price_inr": 60000,
+    "duration_days": 2,
+    "description": "Endoscopic procedure to clear blocked sinuses.",
+    "included_services": [
+      "ENT Evaluation",
+      "Endoscopic Surgery",
+      "Post-op Care"
+    ],
+    "doctor_in_charge": "Dr. Nishant Iyer",
+    "success_rate_percentage": 90,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "CT Scan",
+      "Allergy Testing",
+      "CBC"
+    ],
+    "recovery_guidelines": "Use nasal sprays, humidifiers, avoid dusty areas.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Wednesday",
+      "Saturday"
+    ]
+  },
+  {
+    "treatment": "Liver Transplant",
+    "department": "Hepatology",
+    "price_inr": 1800000,
+    "duration_days": 15,
+    "description": "Replacement of a diseased liver with a healthy one from a donor.",
+    "included_services": [
+      "Donor Matching",
+      "Transplant Surgery",
+      "ICU Stay",
+      "Long-term Monitoring"
+    ],
+    "doctor_in_charge": "Dr. Farhan Siddiqui",
+    "success_rate_percentage": 85,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Liver Function Test",
+      "CT Scan",
+      "Cross-match",
+      "Psych Evaluation"
+    ],
+    "recovery_guidelines": "Strict medication adherence, regular monitoring, avoid alcohol.",
+    "follow_up_required": true,
+    "insurance_coverage": false,
+    "available_slots": [
+      "Scheduled case-by-case"
+    ]
+  },
+  {
+    "treatment": "IVF Treatment",
+    "department": "Fertility",
+    "price_inr": 120000,
+    "duration_days": 30,
+    "description": "In-vitro fertilization treatment to help with conception.",
+    "included_services": [
+      "Hormonal Therapy",
+      "Egg Retrieval",
+      "Embryo Transfer",
+      "Ultrasound Scans"
+    ],
+    "doctor_in_charge": "Dr. Rekha Sharma",
+    "success_rate_percentage": 70,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "Hormone Panel",
+      "Semen Analysis",
+      "Ultrasound",
+      "AMH Test"
+    ],
+    "recovery_guidelines": "Avoid stress, maintain proper diet, follow medication schedules.",
+    "follow_up_required": true,
+    "insurance_coverage": false,
+    "available_slots": [
+      "Consultation based"
+    ]
+  },
+  {
+    "treatment": "Arthroscopy",
+    "department": "Orthopedics",
+    "price_inr": 65000,
+    "duration_days": 1,
+    "description": "Minimally invasive joint surgery using a camera to diagnose and treat problems.",
+    "included_services": [
+      "Joint Evaluation",
+      "Camera-assisted Surgery",
+      "Same-day Discharge"
+    ],
+    "doctor_in_charge": "Dr. Arvind Rao",
+    "success_rate_percentage": 94,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "MRI",
+      "Blood Test",
+      "Joint Fluid Analysis"
+    ],
+    "recovery_guidelines": "Rest, ice therapy, gradual return to activity.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Tuesday",
+      "Friday"
+    ]
+  },
+  {
+    "treatment": "Brain Tumor Removal",
+    "department": "Neurosurgery",
+    "price_inr": 500000,
+    "duration_days": 10,
+    "description": "Surgical removal of abnormal brain tissue or tumors.",
+    "included_services": [
+      "MRI & CT Scan",
+      "Surgical Removal",
+      "ICU Monitoring",
+      "Post-op Rehabilitation"
+    ],
+    "doctor_in_charge": "Dr. Sanjana Bhatt",
+    "success_rate_percentage": 78,
+    "requires_pre_tests": true,
+    "pre_tests_required": [
+      "MRI",
+      "Biopsy",
+      "Neuro Evaluation",
+      "Blood Tests"
+    ],
+    "recovery_guidelines": "Rest, avoid screen time, follow neuro-rehab program.",
+    "follow_up_required": true,
+    "insurance_coverage": true,
+    "available_slots": [
+      "Case-by-case"
+    ]
+  }
+]
